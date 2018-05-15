@@ -1,0 +1,110 @@
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Libre Franklin', sans-serif; */
+
+html {
+    box-sizing: border-box; 
+}      
+*, *:before, *after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(191, 29, 29);
+    background-color: rgba(255, 204, 38, 0.961);
+}
+
+#container {
+    overflow: scroll; 
+    text-align: center;
+    margin: 2%;   
+}
+
+h2 {
+    border-bottom: dotted 3px rgb(191, 29, 29);
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+h3 {
+    font-size: 18px;
+}
+p {
+    margin-top: -6px;
+    margin-bottom: -6px;
+    font-size: 14px;
+}
+
+img {
+   height:330px;
+   max-width: 380px;
+   border: 3px solid rgb(191, 29, 29);
+   text-align: center;
+   margin-top: -5px;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+label {
+    margin-bottom: -10px;
+    font-size: 15px;
+}
+
+#burgerName, #chefName {
+    border: 2px solid rgb(191, 29, 29);
+    width: 75%;
+    height: 32px;
+    border-radius: 4px;
+    color: rgb(108, 106, 106);
+    margin-top: 10px;
+    background-color: whitesmoke;
+}
+
+#burgerName:focus, #chefName:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(159, 159, 159);   
+}
+
+#burgerOrder {
+    text-align: center;;
+}
+
+.btn {
+    background-color: rgb(191, 29, 29);
+    color: whitesmoke;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem whitesmoke;
+  }
+
+.btn-sm{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    height: 27px;
+    width: 130px;
+}
+
+.customerName {
+    height: 27px;
+    width: 130px;
+    background-color: rgb(191, 29, 29);
+    color: whitesmoke;
+    border: solid 3px rgb(191, 29, 29);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.customerName:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.2rem whitesmoke;
+}
+
+.devour {
+    height: 0px;
+    width: 0px;
+    border: none;
+    margin-left: -8px;
+    padding: 0px;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "sequelizedBurger",
+  "version": "1.0.0",
+  "description": "A Sequelized full-stack burger eating application.  Front end implemented using HTML/CSS and Bootstrap 4.0 and Back end implemented using the MySQL database and npm package, Node.js, Express npm, Handlebars npm, Body-Parser npm, and sequelize npm. The app is designed using MVC (model view controller) pattern for efficient code reuse.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmactavish13/sequelizedBurger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmactavish13/sequelizedBurger/issues"
+  },
+  "homepage": "https://github.com/pmactavish13/sequelizedBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql2": "^1.5.3",
+    "nodemon": "^1.17.4",
+    "npm": "^6.0.1",
+    "sequelize": "^4.37.6"
+  }
+}
