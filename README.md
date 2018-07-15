@@ -1,5 +1,5 @@
 # sequelizedBurger
-A Sequelized full-stack burger eating application.  Front end implemented using HTML/CSS and Bootstrap 4.0 and Back end implemented using the MySQL database and npm package, Node.js, Express npm, Handlebars npm, Body-Parser npm, and sequelize npm.
+A Sequelized full-stack burger eating application implemented using the MySQL database, Node.js, Express, Handlebars, Body-Parser, Sequelize, HTML, CSS and Javascript.
 The app is designed using MVC (model view controller) pattern for efficient code reuse.
 
 App is deployed on heroku: https://ancient-lake-67242.herokuapp.com/
